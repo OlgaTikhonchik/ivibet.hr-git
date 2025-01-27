@@ -631,6 +631,20 @@
     }
     
   } 
+  @media screen and (max-width:395px) {
+    .hero__data {
+      padding: 16px;
+    }
+  }
+  @media screen and (max-width:387px) {
+    .hero__data {
+      padding: 13px;
+    }
+
+    .hero__wrapper-page .hero__data-page{
+      padding: 30px 20px;
+    }
+  } 
 
 
   @media screen and (max-width:385px) {
@@ -639,11 +653,6 @@
     }
     .ratings__data {
       display: block;
-    }
-  }
-  @media screen and (max-width:375px) {
-    .hero__data {
-      padding: 16px;
     }
   }
   
@@ -656,9 +665,7 @@
       display: none;
   }
   
-     .hero__data{
-      padding-right: 10px;
-     }
+    
   
      table td:first-child {
       width: 70%;

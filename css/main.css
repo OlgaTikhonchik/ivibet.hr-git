@@ -499,6 +499,7 @@ body {
   .content__wrapper{
     position: relative;
       top: 80px;
+      
     margin-left: 20px;
     margin-right: 20px;  
   
@@ -874,43 +875,7 @@ table td:last-child {
     /*  */
 
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-  }
-
-  table {
-      width: 100%;
-      border-collapse: collapse;
-  }
-
-  th, td {
-      text-align: left;
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-  }
-
-  th {
-      background-color: #f4f4f4;
-  }
-
-  .progress-container {
-      width: 100%;
-      background-color: #f4f4f4;
-      border-radius: 4px;
-      overflow: hidden;
-  }
-
-  .progress-bar {
-      display: block;
-      height: 8px;
-      background-color: #333;
-  }
-
-  .rating {
-      text-align: right;
-  }
-
-
+    
     
   /* ----------faq----------------------- */
   .faq__subtitle {
